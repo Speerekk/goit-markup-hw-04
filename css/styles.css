@@ -179,7 +179,6 @@ margin-left: 93px;
 
 .bg-portfolio {
     background: #FFFFFF;
-    
 }
 
 .types-portfolio {
@@ -396,6 +395,7 @@ ul {
 
 .any-project {
     padding: 20px 24px;
+    border: 1px solid #eeeeee;
 }
 
 .staff-name {
@@ -446,6 +446,7 @@ ul {
 .clients-list {
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
 .clients-item {
@@ -456,9 +457,19 @@ ul {
 .clients-link {
     height: 100%;
     width: 100%;
-    display: block;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border: 1px solid #2196F3;
+    background-color: #ffffff;
+    fill: #2196F3;
 }
 
 .footer-logo {
