@@ -23,7 +23,6 @@ body {
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
 }
 
 /* Header */
@@ -44,6 +43,7 @@ body {
 
 .header {
     background: #ffffff;
+    border: 1px solid #ECECEC;
 }
 
 .site-logo {
@@ -178,7 +178,7 @@ margin-left: 93px;
 
 .bg-portfolio {
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    
 }
 
 .types-portfolio {
@@ -324,6 +324,11 @@ ul {
     border-radius: 0px 0px 4px 4px;
 }
 
+.card-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .hero-title {
     font-family: 'Roboto';
     font-weight: 900;
@@ -369,7 +374,7 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 9px;
 }
 
@@ -383,7 +388,7 @@ ul {
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 0;
-    margin-bottom: 30;
+    margin-bottom: 0;
     padding-bottom: 0;
 }
 
@@ -397,8 +402,10 @@ ul {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    margin-top: 60px;
+    margin-top: 0;
     margin-bottom: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .footer {
@@ -437,6 +444,9 @@ ul {
     margin-bottom: 9px;
 }
 
+.contact-foot {
+    margin-bottom: 9px;
+}
 
 .project {
     font-family: 'Roboto';
@@ -463,6 +473,6 @@ ul {
 }
 
 .end {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 9px;
 }
