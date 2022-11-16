@@ -199,6 +199,7 @@ margin-left: 93px;
     flex-wrap: wrap;
     padding: 0;
     gap: 30px;
+    width: 1170px;
 }
 
 
@@ -231,6 +232,7 @@ margin-left: 93px;
 ul {
     list-style: none;
     text-decoration: none;
+    padding: 0;
 }
 
 .list {
@@ -537,6 +539,14 @@ ul {
     padding-left: 0;
     margin-bottom: 0;
     margin-top: 0;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.footer-mar-icons {
+    margin-right: 70px;
 }
 
 .address {
