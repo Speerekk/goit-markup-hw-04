@@ -77,6 +77,7 @@ body {
     margin-left: 344px;
     margin-left: auto;
     gap: 50px;
+    fill: #757575;
 }
 
 .auth-icon-link {
@@ -84,11 +85,7 @@ body {
     fill: #757575;
 }
 
-.auth-icon-link:hover,
-.auth-icon-link:focus {
-    color: #2196F3;
-    fill: #2196F3;
-}
+
 
 .site-nav .link:not(last-child) {
     margin-right: 50;
@@ -142,6 +139,11 @@ margin-left: 93px;
     fill: #2196F3;
 }
 
+.auth-contact:hover,
+.auth-contact:focus {
+    fill: #2196F3;
+}
+
 .button {
     display: inline-block;
     padding: 6px 22px;
@@ -169,6 +171,7 @@ margin-left: 93px;
     border-radius: 4px;
     text-decoration: none;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .sec-portfolio {
@@ -225,11 +228,10 @@ margin-left: 93px;
 
 .top-icons-item {
     width: calc((100% - 90px) / 4);
-    height: 120px;
 }
 
 .top-icons-link {
-    height: 100%;
+    height: 120px;
     width: 100%;
     border-radius: 4px;
     display: flex;
